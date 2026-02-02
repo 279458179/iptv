@@ -16,9 +16,7 @@ If you are experiencing playback issues, try the **IPv4** list first.
 Copy the Raw link of the file you need and add it to your IPTV player (APTV, TiviMate, etc.).
 
 **Example URL Structure:**
-`https://raw.githubusercontent.com/<YOUR_USERNAME>/<YOUR_REPO>/main/cctv_ipv4.m3u`
-
-*(Replace `<YOUR_USERNAME>` and `<YOUR_REPO>` with your actual GitHub repository details)*
+`https://raw.githubusercontent.com/279458179/iptv/main/cctv_ipv4.m3u`
 
 ## Features
 - **Multi-Source Aggregation**: Fetches from verified community sources (FrankWu, FanMingMing, IPTV-Org).
