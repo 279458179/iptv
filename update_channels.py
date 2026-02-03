@@ -1,24 +1,49 @@
 import requests
 import datetime
 import os
+import concurrent.futures
+import time
+
+def check_stream_url(url, timeout=2):
+    """
+    Verifies if a stream URL is accessible and responsive.
+    Returns (is_valid, response_time)
+    """
+    try:
+        start_time = time.time()
+        # Fake a browser user agent
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        }
+        # Use stream=True to avoid downloading the whole file, just headers and start
+        # Some servers don't support HEAD properly for m3u8, so GET with stream is safer but slower.
+        # Let's try HEAD first, if 405/404 then maybe invalid. 
+        # Actually for IPTV, usually HEAD works or GET with stream and close immediately.
+        with requests.get(url, headers=headers, stream=True, timeout=timeout) as r:
+            if r.status_code in [200, 206, 302]:
+                return True, time.time() - start_time
+            return False, 0
+    except:
+        return False, 0
 
 def main():
-    # Sources configuration
+    # Sources configuration - STRICTLY IPv4
+    # Prioritizing verified aggregators from search results
     sources = [
         {
-            "name": "IPv6 (FanMingMing)",
-            "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
-            "type": "ipv6"
-        },
-        {
-            "name": "IPv4 (FrankWu)",
-            "url": "https://raw.githubusercontent.com/frankwuzp/iptv-cn/main/tv-ipv4-cn.m3u",
+            "name": "Guovin IPv4",
+            "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u",
             "type": "ipv4"
         },
         {
-            "name": "IPv4 (IPTV-Org)",
-            "url": "https://iptv-org.github.io/iptv/countries/cn.m3u",
-            "type": "ipv4_backup"
+            "name": "MyIPTV IPv4 (Suxuang)",
+            "url": "https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u",
+            "type": "ipv4"
+        },
+        {
+            "name": "YueChan Live",
+            "url": "https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u",
+            "type": "ipv4"
         }
     ]
 
@@ -29,8 +54,10 @@ def main():
         "CCTV-4K", "CCTV-8K"
     ]
 
-    all_channels = []
+    # Temporary storage: { "CCTV-1": [ {url, speed, name}, ... ] }
+    candidates = {k: [] for k in target_channels}
 
+    print("Step 1: Fetching and parsing playlists...")
     for source in sources:
         print(f"Fetching source: {source['name']}...")
         try:
@@ -45,124 +72,138 @@ def main():
                 line = lines[i].strip()
                 if line.startswith("#EXTINF"):
                     # Basic parsing
-                    channel_name = line.split(',')[-1].strip()
+                    channel_name_raw = line.split(',')[-1].strip()
                     
-                    # Check if target
+                    # Normalize checks
                     is_target = False
                     normalized_name = ""
-                    for target in target_channels:
-                        if target in channel_name.upper():
-                            if channel_name.upper().startswith(target):
-                                is_target = True
-                                normalized_name = target
-                                break
+                    upper_name = channel_name_raw.upper()
                     
+                    for target in target_channels:
+                        # Exact match start logic
+                        if upper_name.startswith(target):
+                            suffix = upper_name[len(target):]
+                            if suffix and suffix[0].isdigit():
+                                continue # Avoid CCTV-10 matching CCTV-1
+                            
+                            is_target = True
+                            normalized_name = target
+                            break
+                        
                     if is_target and i + 1 < len(lines):
                         url = lines[i+1].strip()
                         if url and not url.startswith("#"):
-                            all_channels.append({
-                                "name": normalized_name, # Use standardized name
-                                "original_name": channel_name,
+                            # Filter out IPv6 IPs
+                            if "[" in url and "]" in url and ":" in url:
+                                i += 1
+                                continue
+                            
+                            candidates[normalized_name].append({
                                 "url": url,
-                                "source_type": source['type'],
-                                "line_info": line
+                                "original_name": channel_name_raw,
+                                "line_info": line,
+                                "source_name": source['name']
                             })
                 i += 1
         except Exception as e:
-            print(f"Error fetching {source['name']}: {e}")
+            print(f"Error processing {source['name']}: {e}")
 
-    print(f"Total extracted channels: {len(all_channels)}")
+    print("Step 2: Validating streams (this may take a minute)...")
+    
+    final_channels = []
+    
+    # Process each channel's candidates
+    for channel in target_channels:
+        links = candidates[channel]
+        if not links:
+            continue
+            
+        print(f"Validating {len(links)} links for {channel}...")
+        
+        # Use ThreadPool to check links in parallel
+        valid_links = []
+        with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
+            future_to_link = {executor.submit(check_stream_url, link['url']): link for link in links}
+            for future in concurrent.futures.as_completed(future_to_link):
+                link = future_to_link[future]
+                try:
+                    is_valid, speed = future.result()
+                    if is_valid:
+                        link['speed'] = speed
+                        valid_links.append(link)
+                except Exception as exc:
+                    pass
+        
+        # Sort by speed (fastest first) and keep top 10
+        valid_links.sort(key=lambda x: x['speed'])
+        selected_links = valid_links[:10]
+        
+        print(f"  -> Found {len(valid_links)} working links. Keeping best {len(selected_links)}.")
+        
+        for link in selected_links:
+            final_channels.append({
+                "name": channel,
+                "original_name": link['original_name'],
+                "url": link['url'],
+                "speed": link['speed'],
+                "source_name": link['source_name'],
+                "line_info": link['line_info']
+            })
 
-    # Organize channels by name
-    channels_map = {}
-    for chan in all_channels:
-        if chan['name'] not in channels_map:
-            channels_map[chan['name']] = []
-        channels_map[chan['name']].append(chan)
+    # Generate M3U
+    header = '#EXTM3U\n'
+    
+    # CCTV IPv4 List
+    content_ipv4 = header
+    for ch in final_channels:
+        # Update title to include speed info for debugging
+        # e.g. CCTV-1 [0.5s]
+        speed_ms = int(ch['speed'] * 1000)
+        # Use the original EXTINF line but maybe modify the name? 
+        # Let's just reconstruct a clean EXTINF line
+        # #EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv1.png" group-title="CCTV",CCTV-1
+        # Since we don't have all metadata, let's try to preserve original line or create a standard one
+        
+        # Simplified reconstruction for better compatibility
+        # We use the normalized name for the group/id to be clean
+        clean_name = ch['name']
+        logo_name = clean_name.replace("-", "").lower() # cctv1
+        logo_url = f"https://live.fanmingming.cn/tv/logo/{logo_name}.png"
+        
+        line = f'#EXTINF:-1 tvg-id="{logo_name}" tvg-name="{clean_name}" tvg-logo="{logo_url}" group-title="央视频道",{clean_name} [{speed_ms}ms]\n{ch["url"]}\n'
+        content_ipv4 += line
 
-    # Helper to generate M3U content
-    def generate_m3u(channels_data, preferred_type=None):
-        content = "#EXTM3U\n"
-        for name in target_channels:
-            if name in channels_data:
-                # Sort streams: preferred_type first
-                streams = channels_data[name]
-                if preferred_type:
-                    streams.sort(key=lambda x: 0 if x['source_type'] == preferred_type else 1)
-                
-                for stream in streams:
-                    # Modify title to indicate type if needed, or keep original
-                    # For user clarity, let's append type to title in the #EXTINF
-                    title_suffix = f" [{stream['source_type'].upper()}]"
-                    new_line_info = stream['line_info'].replace(stream['original_name'], f"{stream['original_name']}{title_suffix}")
-                    content += f"{new_line_info}\n{stream['url']}\n"
-        return content
-
-    # 1. Generate IPv4 Only M3U (Safe for most users)
-    ipv4_content = generate_m3u(channels_map, preferred_type='ipv4')
     with open("cctv_ipv4.m3u", "w", encoding="utf-8") as f:
-        f.write(ipv4_content)
-
-    # 2. Generate IPv6 Only M3U
-    ipv6_content = generate_m3u(channels_map, preferred_type='ipv6')
-    with open("cctv_ipv6.m3u", "w", encoding="utf-8") as f:
-        f.write(ipv6_content)
-
-    # 3. Generate Full M3U (IPv4 first as it's more compatible)
-    full_content = generate_m3u(channels_map, preferred_type='ipv4')
+        f.write(content_ipv4)
     
-    # Preserve existing custom channels if any (from previous cctv_full.m3u runs)
-    # Actually, let's simplify and just overwrite cctv_full.m3u with the high quality CCTV list
-    # The user wanted a CCTV app, so merging old garbage might be bad.
-    # But if they had custom channels...
-    # Let's try to read cctv_full.m3u for non-CCTV channels
-    other_channels = ""
-    if os.path.exists("cctv_full.m3u"):
-        try:
-            with open("cctv_full.m3u", "r", encoding="utf-8") as f:
-                old_lines = f.readlines()
-            
-            buffer = []
-            skip = False
-            for line in old_lines:
-                if line.strip().startswith("#EXTM3U"): continue
-                if line.startswith("#EXTINF"):
-                    # If it's a CCTV channel we generated, skip it
-                    if "group-title=\"CCTV" in line or "CCTV-" in line or "[IPV" in line:
-                        skip = True
-                    else:
-                        skip = False
-                        buffer.append(line)
-                elif not line.startswith("#") and line.strip():
-                    if not skip:
-                        buffer.append(line)
-            other_channels = "".join(buffer)
-        except:
-            pass
-
+    # Also overwrite cctv_full.m3u with this working list
     with open("cctv_full.m3u", "w", encoding="utf-8") as f:
-        f.write(full_content + "\n" + other_channels)
+        f.write(content_ipv4)
 
-    # 4. Generate Markdown
-    md_content = "# CCTV Live Sources\n\n> Auto-aggregated from multiple sources. **Recommended: Try IPv4 links if IPv6 fails.**\n\n"
-    md_content += f"*Last Updated: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n\n"
-    md_content += "| Channel | IPv4 Stream | IPv6 Stream |\n|---|---|---|\n"
+    # Generate MD
+    md_content = "# CCTV 频道列表 (IPv4 Verified)\n\n"
+    md_content += f"更新时间: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n"
+    md_content += "| 频道 | 响应时间 | 链接 |\n"
+    md_content += "| --- | --- | --- |\n"
     
-    for name in target_channels:
-        if name in channels_map:
-            streams = channels_map[name]
-            ipv4_url = next((s['url'] for s in streams if 'ipv4' in s['source_type']), "N/A")
-            ipv6_url = next((s['url'] for s in streams if 'ipv6' in s['source_type']), "N/A")
-            
-            v4_link = f"[Link]({ipv4_url})" if ipv4_url != "N/A" else "Unavailable"
-            v6_link = f"[Link]({ipv6_url})" if ipv6_url != "N/A" else "Unavailable"
-            
-            md_content += f"| {name} | {v4_link} | {v6_link} |\n"
+    # Group by channel name for cleaner table
+    grouped = {}
+    for ch in final_channels:
+        if ch['name'] not in grouped:
+            grouped[ch['name']] = []
+        grouped[ch['name']].append(ch)
+        
+    for ch_name in target_channels:
+        if ch_name in grouped:
+            # Take top 3
+            for item in grouped[ch_name][:3]:
+                 speed_ms = int(item['speed'] * 1000)
+                 md_content += f"| {ch_name} | {speed_ms}ms | [点击播放]({item['url']}) |\n"
 
     with open("cctv_official.md", "w", encoding="utf-8") as f:
         f.write(md_content)
-
-    print("Generated cctv_ipv4.m3u, cctv_ipv6.m3u, cctv_full.m3u, cctv_official.md")
+        
+    print(f"Generated cctv_ipv4.m3u, cctv_full.m3u, and cctv_official.md with {len(final_channels)} verified channels.")
 
 if __name__ == "__main__":
     main()

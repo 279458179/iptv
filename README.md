@@ -1,30 +1,25 @@
-# CCTV IPTV Subscription Generator
+# CCTV IPTV 直播源 (IPv4 专用)
 
-This project automatically generates reliable IPTV subscription lists for CCTV channels (1-16+), aggregating sources to support both **IPv4** and **IPv6** network environments.
+自动聚合高质量的CCTV直播源，专为IPv4网络环境优化。
 
-## Subscription Links (Recommend)
+## 特点
+- **IPv4 Only**: 严格过滤IPv6地址，兼容旧设备和纯IPv4网络。
+- **自动验证**: 每次更新前自动测试连接性，剔除无效链接。
+- **低延迟优先**: 优先选择响应速度快的节点。
 
-If you are experiencing playback issues, try the **IPv4** list first.
+## 订阅链接
 
-| Type | Filename | Description |
-|------|----------|-------------|
-| **IPv4 Only** | `cctv_ipv4.m3u` | **Best for most users.** Uses pure IPv4 sources (Mobile/Unicom/Telecom). Compatible with all networks. |
-| **IPv6 Only** | `cctv_ipv6.m3u` | High-speed, low-latency streams. Requires your network to support IPv6. |
-| **Full (Combo)** | `cctv_full.m3u` | Contains both IPv4 and IPv6 sources. IPv4 is prioritized. |
+| 格式 | 链接 | 说明 |
+| --- | --- | --- |
+| **M3U (推荐)** | `https://raw.githubusercontent.com/279458179/iptv/main/cctv_ipv4.m3u` | 纯IPv4，包含所有CCTV频道，已验证有效性 |
+| **M3U (完整)** | `https://raw.githubusercontent.com/279458179/iptv/main/cctv_full.m3u` | 同上 (为了兼容旧链接) |
 
-### How to Use
-Copy the Raw link of the file you need and add it to your IPTV player (APTV, TiviMate, etc.).
+## 频道列表预览
+查看 [CCTV 频道列表 (Markdown)](cctv_official.md)
 
-**Example URL Structure:**
-`https://raw.githubusercontent.com/279458179/iptv/main/cctv_ipv4.m3u`
+## 使用方法
+1. 复制上面的 `.m3u` 链接。
+2. 在 APTV、TiviMate、PotPlayer 等播放器中添加订阅。
+3. 享受流畅播放。
 
-## Features
-- **Multi-Source Aggregation**: Fetches from verified community sources (FrankWu, FanMingMing, IPTV-Org).
-- **Network Compatibility**: Provides separate lists for IPv4 and IPv6 to solve "cannot play" issues.
-- **Auto-Update**: Script `update_channels.py` fetches the latest valid streams.
-
-## Manual Update
-Run the update script to refresh the lists:
-```bash
-python update_channels.py
-```
+> 更新时间: 每天自动更新

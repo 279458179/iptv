@@ -1,17 +1,54 @@
-# CCTV Live Sources
+# CCTV 频道列表 (IPv4 Verified)
 
-> Auto-aggregated from multiple sources. **Recommended: Try IPv4 links if IPv6 fails.**
+更新时间: 2026-02-03 08:24:08
 
-*Last Updated: 2026-02-02 17:11:03*
-
-| Channel | IPv4 Stream | IPv6 Stream |
-|---|---|---|
-| CCTV-1 | [Link](http://39.134.18.82/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225804/index.m3u8) | [Link](http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?) |
-| CCTV-2 | [Link](http://39.134.18.82/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226195/index.m3u8) | [Link](http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226893/1.m3u8?) |
-| CCTV-3 | [Link](http://39.134.18.82/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226397/index.m3u8) | [Link](http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226471/1.m3u8?) |
-| CCTV-4 | [Link](http://39.134.18.82/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226191/index.m3u8) | [Link](http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226335/1.m3u8?) |
-| CCTV-5 | [Link](http://39.134.18.82/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226395/index.m3u8) | [Link](http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226469/1.m3u8?) |
-| CCTV-6 | [Link](http://39.134.18.82/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226393/index.m3u8) | [Link](http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226468/1.m3u8?) |
-| CCTV-7 | [Link](http://39.134.18.82/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226192/index.m3u8) | [Link](http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226946/1.m3u8?) |
-| CCTV-8 | [Link](http://39.134.18.82/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226192/index.m3u8) | [Link](http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226485/1.m3u8?) |
-| CCTV-9 | [Link](http://39.134.18.82/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226197/index.m3u8) | [Link](http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226944/1.m3u8?) |
+| 频道 | 响应时间 | 链接 |
+| --- | --- | --- |
+| CCTV-1 | 63ms | [点击播放](http://112.46.85.60:8009/hls/501/index.m3u8) |
+| CCTV-1 | 78ms | [点击播放](http://218.3.138.25:1111/tsfile/live/1000_1.m3u8) |
+| CCTV-1 | 98ms | [点击播放](http://111.221.137.234:44330/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0) |
+| CCTV-2 | 67ms | [点击播放](http://pull-hls-f1.douyincdn.com/media/stream-695106910011261612/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20260201084152FCA02A28E82C926FE0D6-TkujMo&wsSecret=85bb061c39ad9227e9c420993c2e56b8&wsTime=697ea150) |
+| CCTV-2 | 101ms | [点击播放](http://27.41.245.32:801/hls/2/index.m3u8) |
+| CCTV-2 | 107ms | [点击播放](http://112.123.206.32:808/hls/2/index.m3u8) |
+| CCTV-3 | 63ms | [点击播放](http://112.132.10.54:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0) |
+| CCTV-3 | 67ms | [点击播放](http://hczn.x3322.net:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0) |
+| CCTV-3 | 71ms | [点击播放](http://hczn.x3322.net:9902/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0) |
+| CCTV-4 | 43ms | [点击播放](http://120.211.62.180:8000/hls/4/index.m3u8) |
+| CCTV-4 | 54ms | [点击播放](http://58.57.40.22:9901/tsfile/live/1003_1.m3u8) |
+| CCTV-4 | 57ms | [点击播放](http://112.27.235.94:8000/hls/4/index.m3u8) |
+| CCTV-5 | 35ms | [点击播放](http://120.211.62.180:8000/hls/18/index.m3u8) |
+| CCTV-5 | 65ms | [点击播放](http://112.27.235.94:8000/hls/6/index.m3u8) |
+| CCTV-5 | 94ms | [点击播放](http://27.41.245.32:801/hls/5/index.m3u8) |
+| CCTV-6 | 58ms | [点击播放](http://112.27.235.94:8000/hls/7/index.m3u8) |
+| CCTV-6 | 71ms | [点击播放](http://61.136.172.236:9901/tsfile/live/0006_1.m3u8) |
+| CCTV-6 | 96ms | [点击播放](http://218.3.138.25:1111/tsfile/live/1005_1.m3u8) |
+| CCTV-7 | 62ms | [点击播放](http://112.27.235.94:8000/hls/8/index.m3u8) |
+| CCTV-7 | 78ms | [点击播放](http://120.211.62.180:8000/hls/7/index.m3u8) |
+| CCTV-7 | 107ms | [点击播放](http://27.41.245.32:801/hls/7/index.m3u8) |
+| CCTV-8 | 55ms | [点击播放](http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0) |
+| CCTV-8 | 56ms | [点击播放](http://112.27.235.94:8000/hls/9/index.m3u8) |
+| CCTV-8 | 69ms | [点击播放](http://112.132.10.54:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0) |
+| CCTV-9 | 35ms | [点击播放](http://120.211.62.180:8000/hls/9/index.m3u8) |
+| CCTV-9 | 63ms | [点击播放](http://61.136.172.236:9901/tsfile/live/0009_1.m3u8) |
+| CCTV-9 | 68ms | [点击播放](http://112.46.85.60:8009/hls/509/index.m3u8) |
+| CCTV-10 | 46ms | [点击播放](http://120.211.62.180:8000/hls/10/index.m3u8) |
+| CCTV-10 | 55ms | [点击播放](http://58.57.40.22:9901/tsfile/live/1010_1.m3u8) |
+| CCTV-10 | 68ms | [点击播放](http://61.136.172.236:9901/tsfile/live/0010_1.m3u8) |
+| CCTV-11 | 47ms | [点击播放](http://58.57.40.22:9901/tsfile/live/1011_1.m3u8) |
+| CCTV-11 | 56ms | [点击播放](http://112.27.235.94:8000/hls/12/index.m3u8) |
+| CCTV-11 | 63ms | [点击播放](http://61.136.172.236:9901/tsfile/live/0011_1.m3u8) |
+| CCTV-12 | 50ms | [点击播放](http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0) |
+| CCTV-12 | 69ms | [点击播放](http://112.27.235.94:8000/hls/13/index.m3u8) |
+| CCTV-12 | 92ms | [点击播放](http://112.46.85.60:8009/hls/507/index.m3u8) |
+| CCTV-13 | 41ms | [点击播放](http://120.211.62.180:8000/hls/13/index.m3u8) |
+| CCTV-13 | 45ms | [点击播放](http://pull-hls-f1.douyincdn.com/media/stream-695236781635011244/playlist.m3u8?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20260201084040762AD6EF7F62F847F9C7-jI2I18&wsSecret=85681436b041bea9851727386a1a8d2c&wsTime=697ea108) |
+| CCTV-13 | 59ms | [点击播放](http://112.27.235.94:8000/hls/14/index.m3u8) |
+| CCTV-14 | 60ms | [点击播放](http://61.136.172.236:9901/tsfile/live/0014_1.m3u8) |
+| CCTV-14 | 63ms | [点击播放](http://112.27.235.94:8000/hls/15/index.m3u8) |
+| CCTV-14 | 106ms | [点击播放](http://27.41.245.32:801/hls/14/index.m3u8) |
+| CCTV-15 | 60ms | [点击播放](http://112.27.235.94:8000/hls/16/index.m3u8) |
+| CCTV-15 | 92ms | [点击播放](http://222.134.245.16:9901/tsfile/live/0015_1.m3u8) |
+| CCTV-15 | 96ms | [点击播放](http://222.134.245.16:9901/tsfile/live/0015_1.m3u8) |
+| CCTV-16 | 69ms | [点击播放](http://39.152.103.17:8089/tsfile/live/1015_1.m3u8) |
+| CCTV-16 | 91ms | [点击播放](http://183.11.239.36:808/hls/169/index.m3u8) |
+| CCTV-16 | 102ms | [点击播放](http://p.ytelc.com/169l/0/cctv.php?id=cctv16) |
