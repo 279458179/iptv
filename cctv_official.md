@@ -1,15 +1,15 @@
 # CCTV 频道列表 (IPv4 Verified)
 
-更新时间: 2026-02-17 22:22:26
+更新时间: 2026-02-18 22:24:24
 
 | 频道 | 响应时间 | 链接 |
 | --- | --- | --- |
-| CCTV-5 | 123ms | [点击播放](http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub) |
-| CCTV-5 | 378ms | [点击播放](http://8.218.84.3:8885/live/NlAhgdR475_p9pHeKE1G1rILoVl18Qqe36jUsiWqY5S26LQzNA-82o0LSiNo13OGnwf5LlUK1sOxu7M-hjgi3R9oKv6wjXPvchazZKvzBKT_OKeMMhW9ZZxC5QJMEcXF2xc4Q2eeOyCGTcN6esKiQLlAjNwBSl3OfgEHb8FLl2ETAS4aIVrjvp5YcYQXcSuNVG_n45sxVc_HkdhtlB_z6TFuvmBrrr7WHcyCKGgcAJ8DObjHZhrbpqYXQxp2OOIfCh5BiYDJasMLxj52DMhNzQ.m3u8?u=1757123819) |
-| CCTV-6 | 469ms | [点击播放](http://8.138.7.223/tv/1905.php?id=LIVE3YPYZ30E7V1R0) |
-| CCTV-7 | 20ms | [点击播放](http://23.237.228.134/live5/CCTV7.m3u8) |
-| CCTV-9 | 1396ms | [点击播放](http://p.ytelc.com/169l/0/cctv.php?id=cctv9) |
-| CCTV-12 | 59ms | [点击播放](http://38.75.136.137:98/gslb/dsdqbv/cctv12hd.m3u8?auth=test20251009) |
-| CCTV-14 | 371ms | [点击播放](http://38.75.136.137:98/gslb/dsdqpub/cctv14hd.m3u8?auth=testpub) |
-| CCTV-16 | 57ms | [点击播放](http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009) |
-| CCTV-16 | 98ms | [点击播放](http://69.30.246.194/live/cctv16.m3u8) |
+| CCTV-5 | 130ms | [点击播放](http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub) |
+| CCTV-5 | 486ms | [点击播放](http://8.218.84.3:8885/live/NlAhgdR475_p9pHeKE1G1rILoVl18Qqe36jUsiWqY5S26LQzNA-82o0LSiNo13OGnwf5LlUK1sOxu7M-hjgi3R9oKv6wjXPvchazZKvzBKT_OKeMMhW9ZZxC5QJMEcXF2xc4Q2eeOyCGTcN6esKiQLlAjNwBSl3OfgEHb8FLl2ETAS4aIVrjvp5YcYQXcSuNVG_n45sxVc_HkdhtlB_z6TFuvmBrrr7WHcyCKGgcAJ8DObjHZhrbpqYXQxp2OOIfCh5BiYDJasMLxj52DMhNzQ.m3u8?u=1757123819) |
+| CCTV-6 | 487ms | [点击播放](http://8.138.7.223/tv/1905.php?id=LIVE3YPYZ30E7V1R0) |
+| CCTV-7 | 130ms | [点击播放](http://23.237.228.134/live5/CCTV7.m3u8) |
+| CCTV-9 | 1378ms | [点击播放](http://p.ytelc.com/169l/0/cctv.php?id=cctv9) |
+| CCTV-12 | 199ms | [点击播放](http://38.75.136.137:98/gslb/dsdqbv/cctv12hd.m3u8?auth=test20251009) |
+| CCTV-14 | 122ms | [点击播放](http://38.75.136.137:98/gslb/dsdqpub/cctv14hd.m3u8?auth=testpub) |
+| CCTV-16 | 42ms | [点击播放](http://69.30.246.194/live/cctv16.m3u8) |
+| CCTV-16 | 193ms | [点击播放](http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009) |
