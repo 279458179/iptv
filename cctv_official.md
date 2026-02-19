@@ -1,15 +1,54 @@
 # CCTV 频道列表 (IPv4 Verified)
 
-更新时间: 2026-02-18 22:24:24
+更新时间: 2026-02-19 22:22:58
 
 | 频道 | 响应时间 | 链接 |
 | --- | --- | --- |
-| CCTV-5 | 130ms | [点击播放](http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub) |
-| CCTV-5 | 486ms | [点击播放](http://8.218.84.3:8885/live/NlAhgdR475_p9pHeKE1G1rILoVl18Qqe36jUsiWqY5S26LQzNA-82o0LSiNo13OGnwf5LlUK1sOxu7M-hjgi3R9oKv6wjXPvchazZKvzBKT_OKeMMhW9ZZxC5QJMEcXF2xc4Q2eeOyCGTcN6esKiQLlAjNwBSl3OfgEHb8FLl2ETAS4aIVrjvp5YcYQXcSuNVG_n45sxVc_HkdhtlB_z6TFuvmBrrr7WHcyCKGgcAJ8DObjHZhrbpqYXQxp2OOIfCh5BiYDJasMLxj52DMhNzQ.m3u8?u=1757123819) |
-| CCTV-6 | 487ms | [点击播放](http://8.138.7.223/tv/1905.php?id=LIVE3YPYZ30E7V1R0) |
-| CCTV-7 | 130ms | [点击播放](http://23.237.228.134/live5/CCTV7.m3u8) |
-| CCTV-9 | 1378ms | [点击播放](http://p.ytelc.com/169l/0/cctv.php?id=cctv9) |
-| CCTV-12 | 199ms | [点击播放](http://38.75.136.137:98/gslb/dsdqbv/cctv12hd.m3u8?auth=test20251009) |
-| CCTV-14 | 122ms | [点击播放](http://38.75.136.137:98/gslb/dsdqpub/cctv14hd.m3u8?auth=testpub) |
-| CCTV-16 | 42ms | [点击播放](http://69.30.246.194/live/cctv16.m3u8) |
-| CCTV-16 | 193ms | [点击播放](http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009) |
+| CCTV-1 | 292ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV1&line=6) |
+| CCTV-1 | 311ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV1&line=4) |
+| CCTV-1 | 352ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV1&line=14) |
+| CCTV-2 | 325ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV2&line=1) |
+| CCTV-2 | 358ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV2&line=3) |
+| CCTV-2 | 365ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV2&line=4) |
+| CCTV-3 | 290ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV3&line=3) |
+| CCTV-3 | 295ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV3&line=6) |
+| CCTV-3 | 300ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV3&line=4) |
+| CCTV-4 | 298ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV4&line=11) |
+| CCTV-4 | 300ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV4&line=15) |
+| CCTV-4 | 309ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV4&line=10) |
+| CCTV-5 | 125ms | [点击播放](http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub) |
+| CCTV-5 | 265ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV5&line=6) |
+| CCTV-5 | 279ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV5&line=1) |
+| CCTV-6 | 287ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV6&line=7) |
+| CCTV-6 | 302ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV6&line=11) |
+| CCTV-6 | 312ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV6&line=5) |
+| CCTV-7 | 125ms | [点击播放](http://23.237.228.134/live5/CCTV7.m3u8) |
+| CCTV-7 | 402ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV7&line=7) |
+| CCTV-7 | 407ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV7&line=3) |
+| CCTV-8 | 237ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV8&line=15) |
+| CCTV-8 | 293ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV8&line=10) |
+| CCTV-8 | 301ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV8&line=11) |
+| CCTV-9 | 326ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV9&line=5) |
+| CCTV-9 | 327ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV9&line=4) |
+| CCTV-9 | 341ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV9&line=7) |
+| CCTV-10 | 276ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV10&line=6) |
+| CCTV-10 | 285ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV10&line=8) |
+| CCTV-10 | 302ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV10&line=3) |
+| CCTV-11 | 280ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV11&line=4) |
+| CCTV-11 | 289ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV11&line=5) |
+| CCTV-11 | 301ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV11&line=7) |
+| CCTV-12 | 196ms | [点击播放](http://38.75.136.137:98/gslb/dsdqbv/cctv12hd.m3u8?auth=test20251009) |
+| CCTV-12 | 284ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV12&line=5) |
+| CCTV-12 | 291ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV12) |
+| CCTV-13 | 321ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV13&line=12) |
+| CCTV-13 | 327ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV13&line=13) |
+| CCTV-13 | 329ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV13&line=4) |
+| CCTV-14 | 131ms | [点击播放](http://38.75.136.137:98/gslb/dsdqpub/cctv14hd.m3u8?auth=testpub) |
+| CCTV-14 | 281ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV14) |
+| CCTV-14 | 283ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV14&line=6) |
+| CCTV-15 | 290ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV15&line=3) |
+| CCTV-15 | 299ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV15&line=4) |
+| CCTV-15 | 302ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV15&line=5) |
+| CCTV-16 | 28ms | [点击播放](http://69.30.246.194/live/cctv16.m3u8) |
+| CCTV-16 | 194ms | [点击播放](http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009) |
+| CCTV-16 | 270ms | [点击播放](https://iptv.catvod.com/live.php?id=CCTV16&line=2) |
