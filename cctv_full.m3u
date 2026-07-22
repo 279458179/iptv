@@ -1,141 +1,141 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv1.png" group-title="央视频道",CCTV-1 [182ms]
-http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv1hd
-#EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv1.png" group-title="央视频道",CCTV-1 [204ms]
+#EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv1.png" group-title="央视频道",CCTV-1 [116ms]
 http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009
-#EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv1.png" group-title="央视频道",CCTV-1 [265ms]
+#EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv1.png" group-title="央视频道",CCTV-1 [190ms]
 http://198.204.228.26/live/cctv1hd.m3u8
-#EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv1.png" group-title="央视频道",CCTV-1 [928ms]
+#EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv1.png" group-title="央视频道",CCTV-1 [304ms]
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv1hd
+#EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv1.png" group-title="央视频道",CCTV-1 [804ms]
 http://69.30.245.50/live/cctv1.m3u8
-#EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv1.png" group-title="央视频道",CCTV-1 [963ms]
+#EXTINF:-1 tvg-id="cctv1" tvg-name="CCTV-1" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv1.png" group-title="央视频道",CCTV-1 [926ms]
 http://198.204.240.250:82/live/cctv1.m3u8
-#EXTINF:-1 tvg-id="cctv2" tvg-name="CCTV-2" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv2.png" group-title="央视频道",CCTV-2 [199ms]
+#EXTINF:-1 tvg-id="cctv2" tvg-name="CCTV-2" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv2.png" group-title="央视频道",CCTV-2 [203ms]
 http://198.204.228.26/live/cctv2hd.m3u8
-#EXTINF:-1 tvg-id="cctv2" tvg-name="CCTV-2" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv2.png" group-title="央视频道",CCTV-2 [221ms]
+#EXTINF:-1 tvg-id="cctv2" tvg-name="CCTV-2" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv2.png" group-title="央视频道",CCTV-2 [289ms]
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv2hd
-#EXTINF:-1 tvg-id="cctv2" tvg-name="CCTV-2" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv2.png" group-title="央视频道",CCTV-2 [567ms]
+#EXTINF:-1 tvg-id="cctv2" tvg-name="CCTV-2" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv2.png" group-title="央视频道",CCTV-2 [441ms]
 http://118.193.115.2:9901/tsfile/live/0002_1.m3u8?key=txiptv
-#EXTINF:-1 tvg-id="cctv2" tvg-name="CCTV-2" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv2.png" group-title="央视频道",CCTV-2 [915ms]
+#EXTINF:-1 tvg-id="cctv2" tvg-name="CCTV-2" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv2.png" group-title="央视频道",CCTV-2 [804ms]
 http://69.30.245.50/live/cctv2.m3u8
-#EXTINF:-1 tvg-id="cctv3" tvg-name="CCTV-3" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv3.png" group-title="央视频道",CCTV-3 [145ms]
+#EXTINF:-1 tvg-id="cctv3" tvg-name="CCTV-3" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv3.png" group-title="央视频道",CCTV-3 [200ms]
 http://198.204.228.26/live/cctv3hd.m3u8
-#EXTINF:-1 tvg-id="cctv3" tvg-name="CCTV-3" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv3.png" group-title="央视频道",CCTV-3 [146ms]
+#EXTINF:-1 tvg-id="cctv3" tvg-name="CCTV-3" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv3.png" group-title="央视频道",CCTV-3 [202ms]
 http://74.91.26.218:82/live/cctv3hd.m3u8
-#EXTINF:-1 tvg-id="cctv3" tvg-name="CCTV-3" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv3.png" group-title="央视频道",CCTV-3 [218ms]
+#EXTINF:-1 tvg-id="cctv3" tvg-name="CCTV-3" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv3.png" group-title="央视频道",CCTV-3 [291ms]
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv3hd
-#EXTINF:-1 tvg-id="cctv3" tvg-name="CCTV-3" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv3.png" group-title="央视频道",CCTV-3 [603ms]
+#EXTINF:-1 tvg-id="cctv3" tvg-name="CCTV-3" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv3.png" group-title="央视频道",CCTV-3 [494ms]
 http://121.57.88.206:898/hls/3/index.m3u8
-#EXTINF:-1 tvg-id="cctv3" tvg-name="CCTV-3" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv3.png" group-title="央视频道",CCTV-3 [905ms]
+#EXTINF:-1 tvg-id="cctv3" tvg-name="CCTV-3" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv3.png" group-title="央视频道",CCTV-3 [823ms]
 http://69.30.245.50/live/cctv3.m3u8
-#EXTINF:-1 tvg-id="cctv4" tvg-name="CCTV-4" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv4.png" group-title="央视频道",CCTV-4 [144ms]
+#EXTINF:-1 tvg-id="cctv4" tvg-name="CCTV-4" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv4.png" group-title="央视频道",CCTV-4 [192ms]
 http://107.150.60.122/live/cctv4hd.m3u8
-#EXTINF:-1 tvg-id="cctv4" tvg-name="CCTV-4" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv4.png" group-title="央视频道",CCTV-4 [144ms]
+#EXTINF:-1 tvg-id="cctv4" tvg-name="CCTV-4" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv4.png" group-title="央视频道",CCTV-4 [195ms]
 http://74.91.26.218:82/live/cctv4hd.m3u8
-#EXTINF:-1 tvg-id="cctv4" tvg-name="CCTV-4" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv4.png" group-title="央视频道",CCTV-4 [203ms]
-http://38.75.136.137:98/gslb/dsdqpub/cctv4k.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="cctv4" tvg-name="CCTV-4" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv4.png" group-title="央视频道",CCTV-4 [217ms]
+#EXTINF:-1 tvg-id="cctv4" tvg-name="CCTV-4" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv4.png" group-title="央视频道",CCTV-4 [296ms]
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv4hd
-#EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV-5" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv5.png" group-title="央视频道",CCTV-5 [147ms]
-http://198.204.228.26/live/cctv5p.m3u8
-#EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV-5" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv5.png" group-title="央视频道",CCTV-5 [147ms]
-http://198.204.228.26/live/cctv5hd.m3u8
-#EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV-5" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv5.png" group-title="央视频道",CCTV-5 [203ms]
+#EXTINF:-1 tvg-id="cctv4" tvg-name="CCTV-4" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv4.png" group-title="央视频道",CCTV-4 [728ms]
+http://38.75.136.137:98/gslb/dsdqpub/cctv4k.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV-5" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv5.png" group-title="央视频道",CCTV-5 [116ms]
 http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
+#EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV-5" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv5.png" group-title="央视频道",CCTV-5 [196ms]
+http://198.204.228.26/live/cctv5p.m3u8
 #EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV-5" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv5.png" group-title="央视频道",CCTV-5 [203ms]
-http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV-5" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv5.png" group-title="央视频道",CCTV-5 [205ms]
-http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV-5" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv5.png" group-title="央视频道",CCTV-5 [519ms]
-http://153.0.171.163:85/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV-5" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv5.png" group-title="央视频道",CCTV-5 [543ms]
+http://198.204.228.26/live/cctv5hd.m3u8
+#EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV-5" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv5.png" group-title="央视频道",CCTV-5 [413ms]
 http://207.56.13.146:81/cdnlive/cctv5.m3u8
-#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv6.png" group-title="央视频道",CCTV-6 [146ms]
-http://74.91.26.218:82/live/cctv6hd.m3u8
-#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv6.png" group-title="央视频道",CCTV-6 [217ms]
-http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv6hd
-#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv6.png" group-title="央视频道",CCTV-6 [265ms]
-http://198.204.228.26/live/cctv6hd.m3u8
-#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv6.png" group-title="央视频道",CCTV-6 [914ms]
+#EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV-5" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv5.png" group-title="央视频道",CCTV-5 [423ms]
+http://153.0.171.163:85/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV-5" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv5.png" group-title="央视频道",CCTV-5 [738ms]
+http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="cctv5" tvg-name="CCTV-5" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv5.png" group-title="央视频道",CCTV-5 [745ms]
+http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv6.png" group-title="央视频道",CCTV-6 [194ms]
 http://69.30.245.50/live/cctv6.m3u8
-#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv6.png" group-title="央视频道",CCTV-6 [955ms]
+#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv6.png" group-title="央视频道",CCTV-6 [195ms]
+http://198.204.228.26/live/cctv6hd.m3u8
+#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv6.png" group-title="央视频道",CCTV-6 [199ms]
+http://74.91.26.218:82/live/cctv6hd.m3u8
+#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv6.png" group-title="央视频道",CCTV-6 [298ms]
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv6hd
+#EXTINF:-1 tvg-id="cctv6" tvg-name="CCTV-6" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv6.png" group-title="央视频道",CCTV-6 [928ms]
 http://198.204.240.250:82/live/cctv6.m3u8
-#EXTINF:-1 tvg-id="cctv7" tvg-name="CCTV-7" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv7.png" group-title="央视频道",CCTV-7 [146ms]
-http://74.91.26.218:82/live/cctv7hd.m3u8
-#EXTINF:-1 tvg-id="cctv7" tvg-name="CCTV-7" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv7.png" group-title="央视频道",CCTV-7 [217ms]
-http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv7hd
-#EXTINF:-1 tvg-id="cctv7" tvg-name="CCTV-7" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv7.png" group-title="央视频道",CCTV-7 [864ms]
-http://69.30.245.50/live/cctv7.m3u8
-#EXTINF:-1 tvg-id="cctv7" tvg-name="CCTV-7" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv7.png" group-title="央视频道",CCTV-7 [967ms]
-http://38.75.136.137:98/gslb/dsdqpub/cctv7hd.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="cctv7" tvg-name="CCTV-7" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv7.png" group-title="央视频道",CCTV-7 [979ms]
+#EXTINF:-1 tvg-id="cctv7" tvg-name="CCTV-7" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv7.png" group-title="央视频道",CCTV-7 [125ms]
 http://38.75.136.137:98/gslb/dsdqbv/cctv7hd.m3u8?auth=test20251009
-#EXTINF:-1 tvg-id="cctv8" tvg-name="CCTV-8" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv8.png" group-title="央视频道",CCTV-8 [147ms]
-http://74.91.26.218:82/live/cctv8hd.m3u8
-#EXTINF:-1 tvg-id="cctv8" tvg-name="CCTV-8" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv8.png" group-title="央视频道",CCTV-8 [203ms]
+#EXTINF:-1 tvg-id="cctv7" tvg-name="CCTV-7" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv7.png" group-title="央视频道",CCTV-7 [192ms]
+http://69.30.245.50/live/cctv7.m3u8
+#EXTINF:-1 tvg-id="cctv7" tvg-name="CCTV-7" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv7.png" group-title="央视频道",CCTV-7 [193ms]
+http://74.91.26.218:82/live/cctv7hd.m3u8
+#EXTINF:-1 tvg-id="cctv7" tvg-name="CCTV-7" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv7.png" group-title="央视频道",CCTV-7 [303ms]
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv7hd
+#EXTINF:-1 tvg-id="cctv7" tvg-name="CCTV-7" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv7.png" group-title="央视频道",CCTV-7 [732ms]
+http://38.75.136.137:98/gslb/dsdqpub/cctv7hd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="cctv8" tvg-name="CCTV-8" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv8.png" group-title="央视频道",CCTV-8 [115ms]
 http://38.75.136.137:98/gslb/dsdqbv/cctv8hd.m3u8?auth=test20251009
-#EXTINF:-1 tvg-id="cctv8" tvg-name="CCTV-8" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv8.png" group-title="央视频道",CCTV-8 [219ms]
+#EXTINF:-1 tvg-id="cctv8" tvg-name="CCTV-8" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv8.png" group-title="央视频道",CCTV-8 [195ms]
+http://74.91.26.218:82/live/cctv8hd.m3u8
+#EXTINF:-1 tvg-id="cctv8" tvg-name="CCTV-8" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv8.png" group-title="央视频道",CCTV-8 [291ms]
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv8hd
-#EXTINF:-1 tvg-id="cctv8" tvg-name="CCTV-8" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv8.png" group-title="央视频道",CCTV-8 [220ms]
+#EXTINF:-1 tvg-id="cctv8" tvg-name="CCTV-8" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv8.png" group-title="央视频道",CCTV-8 [296ms]
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv8k
-#EXTINF:-1 tvg-id="cctv8" tvg-name="CCTV-8" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv8.png" group-title="央视频道",CCTV-8 [507ms]
+#EXTINF:-1 tvg-id="cctv8" tvg-name="CCTV-8" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv8.png" group-title="央视频道",CCTV-8 [745ms]
 http://207.56.13.146:81/cdnlive/cctv8.m3u8
-#EXTINF:-1 tvg-id="cctv9" tvg-name="CCTV-9" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv9.png" group-title="央视频道",CCTV-9 [156ms]
-http://192.151.150.154/live/cctv9hd.m3u8
-#EXTINF:-1 tvg-id="cctv9" tvg-name="CCTV-9" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv9.png" group-title="央视频道",CCTV-9 [159ms]
-http://74.91.26.218:82/live/cctv9hd.m3u8
-#EXTINF:-1 tvg-id="cctv9" tvg-name="CCTV-9" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv9.png" group-title="央视频道",CCTV-9 [159ms]
+#EXTINF:-1 tvg-id="cctv9" tvg-name="CCTV-9" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv9.png" group-title="央视频道",CCTV-9 [189ms]
 http://198.204.228.26/live/cctv9hd.m3u8
-#EXTINF:-1 tvg-id="cctv9" tvg-name="CCTV-9" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv9.png" group-title="央视频道",CCTV-9 [219ms]
+#EXTINF:-1 tvg-id="cctv9" tvg-name="CCTV-9" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv9.png" group-title="央视频道",CCTV-9 [198ms]
+http://192.151.150.154/live/cctv9hd.m3u8
+#EXTINF:-1 tvg-id="cctv9" tvg-name="CCTV-9" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv9.png" group-title="央视频道",CCTV-9 [200ms]
+http://74.91.26.218:82/live/cctv9hd.m3u8
+#EXTINF:-1 tvg-id="cctv9" tvg-name="CCTV-9" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv9.png" group-title="央视频道",CCTV-9 [294ms]
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv9hd
-#EXTINF:-1 tvg-id="cctv9" tvg-name="CCTV-9" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv9.png" group-title="央视频道",CCTV-9 [891ms]
+#EXTINF:-1 tvg-id="cctv9" tvg-name="CCTV-9" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv9.png" group-title="央视频道",CCTV-9 [823ms]
 http://69.30.245.50/live/cctv9.m3u8
-#EXTINF:-1 tvg-id="cctv10" tvg-name="CCTV-10" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv10.png" group-title="央视频道",CCTV-10 [144ms]
+#EXTINF:-1 tvg-id="cctv9" tvg-name="CCTV-9" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv9.png" group-title="央视频道",CCTV-9 [4969ms]
+http://p.ytelc.com/169l/0/cctv.php?id=cctv9
+#EXTINF:-1 tvg-id="cctv10" tvg-name="CCTV-10" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv10.png" group-title="央视频道",CCTV-10 [205ms]
 http://74.91.26.218:82/live/cctv10hd.m3u8
-#EXTINF:-1 tvg-id="cctv10" tvg-name="CCTV-10" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv10.png" group-title="央视频道",CCTV-10 [146ms]
+#EXTINF:-1 tvg-id="cctv10" tvg-name="CCTV-10" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv10.png" group-title="央视频道",CCTV-10 [208ms]
 http://192.151.150.154/live/cctv10hd.m3u8
-#EXTINF:-1 tvg-id="cctv10" tvg-name="CCTV-10" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv10.png" group-title="央视频道",CCTV-10 [220ms]
+#EXTINF:-1 tvg-id="cctv10" tvg-name="CCTV-10" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv10.png" group-title="央视频道",CCTV-10 [305ms]
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv10hd
-#EXTINF:-1 tvg-id="cctv10" tvg-name="CCTV-10" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv10.png" group-title="央视频道",CCTV-10 [871ms]
-http://69.30.245.50/live/cctv10.m3u8
-#EXTINF:-1 tvg-id="cctv10" tvg-name="CCTV-10" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv10.png" group-title="央视频道",CCTV-10 [945ms]
+#EXTINF:-1 tvg-id="cctv10" tvg-name="CCTV-10" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv10.png" group-title="央视频道",CCTV-10 [732ms]
 http://38.75.136.137:98/gslb/dsdqbv/cctv10hd.m3u8?auth=test20251009
-#EXTINF:-1 tvg-id="cctv11" tvg-name="CCTV-11" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv11.png" group-title="央视频道",CCTV-11 [206ms]
-http://38.75.136.137:98/gslb/dsdqpub/cctv11hd.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="cctv11" tvg-name="CCTV-11" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv11.png" group-title="央视频道",CCTV-11 [219ms]
-http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv11hd
-#EXTINF:-1 tvg-id="cctv11" tvg-name="CCTV-11" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv11.png" group-title="央视频道",CCTV-11 [468ms]
-http://120.202.94.181:9446/tsfile/live/0011_1.m3u8?key=txiptv
-#EXTINF:-1 tvg-id="cctv11" tvg-name="CCTV-11" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv11.png" group-title="央视频道",CCTV-11 [1201ms]
-http://74.91.26.218:82/live/cctv11hd.m3u8
-#EXTINF:-1 tvg-id="cctv11" tvg-name="CCTV-11" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv11.png" group-title="央视频道",CCTV-11 [1223ms]
+#EXTINF:-1 tvg-id="cctv10" tvg-name="CCTV-10" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv10.png" group-title="央视频道",CCTV-10 [797ms]
+http://69.30.245.50/live/cctv10.m3u8
+#EXTINF:-1 tvg-id="cctv11" tvg-name="CCTV-11" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv11.png" group-title="央视频道",CCTV-11 [124ms]
 http://38.75.136.137:98/gslb/dsdqbv/cctv11hd.m3u8?auth=test20251009
-#EXTINF:-1 tvg-id="cctv12" tvg-name="CCTV-12" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv12.png" group-title="央视频道",CCTV-12 [144ms]
-http://74.91.26.218:82/live/cctv12hd.m3u8
-#EXTINF:-1 tvg-id="cctv12" tvg-name="CCTV-12" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv12.png" group-title="央视频道",CCTV-12 [204ms]
+#EXTINF:-1 tvg-id="cctv11" tvg-name="CCTV-11" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv11.png" group-title="央视频道",CCTV-11 [188ms]
+http://74.91.26.218:82/live/cctv11hd.m3u8
+#EXTINF:-1 tvg-id="cctv11" tvg-name="CCTV-11" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv11.png" group-title="央视频道",CCTV-11 [291ms]
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv11hd
+#EXTINF:-1 tvg-id="cctv11" tvg-name="CCTV-11" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv11.png" group-title="央视频道",CCTV-11 [745ms]
+http://38.75.136.137:98/gslb/dsdqpub/cctv11hd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="cctv12" tvg-name="CCTV-12" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv12.png" group-title="央视频道",CCTV-12 [119ms]
 http://38.75.136.137:98/gslb/dsdqbv/cctv12hd.m3u8?auth=test20251009
-#EXTINF:-1 tvg-id="cctv12" tvg-name="CCTV-12" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv12.png" group-title="央视频道",CCTV-12 [204ms]
-http://38.75.136.137:98/gslb/dsdqpub/cctv12hd.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="cctv12" tvg-name="CCTV-12" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv12.png" group-title="央视频道",CCTV-12 [312ms]
+#EXTINF:-1 tvg-id="cctv12" tvg-name="CCTV-12" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv12.png" group-title="央视频道",CCTV-12 [194ms]
+http://74.91.26.218:82/live/cctv12hd.m3u8
+#EXTINF:-1 tvg-id="cctv12" tvg-name="CCTV-12" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv12.png" group-title="央视频道",CCTV-12 [292ms]
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv12hd
-#EXTINF:-1 tvg-id="cctv12" tvg-name="CCTV-12" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv12.png" group-title="央视频道",CCTV-12 [539ms]
+#EXTINF:-1 tvg-id="cctv12" tvg-name="CCTV-12" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv12.png" group-title="央视频道",CCTV-12 [470ms]
 http://222.223.41.27:8888/hls/12/index.m3u8
-#EXTINF:-1 tvg-id="cctv13" tvg-name="CCTV-13" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv13.png" group-title="央视频道",CCTV-13 [145ms]
+#EXTINF:-1 tvg-id="cctv12" tvg-name="CCTV-12" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv12.png" group-title="央视频道",CCTV-12 [728ms]
+http://38.75.136.137:98/gslb/dsdqpub/cctv12hd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="cctv13" tvg-name="CCTV-13" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv13.png" group-title="央视频道",CCTV-13 [200ms]
 http://74.91.26.218:82/live/cctv13hd.m3u8
-#EXTINF:-1 tvg-id="cctv13" tvg-name="CCTV-13" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv13.png" group-title="央视频道",CCTV-13 [220ms]
+#EXTINF:-1 tvg-id="cctv13" tvg-name="CCTV-13" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv13.png" group-title="央视频道",CCTV-13 [289ms]
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv13hd
-#EXTINF:-1 tvg-id="cctv14" tvg-name="CCTV-14" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv14.png" group-title="央视频道",CCTV-14 [148ms]
-http://204.12.221.218:8181/3m1080p/cctv14.m3u8
-#EXTINF:-1 tvg-id="cctv14" tvg-name="CCTV-14" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv14.png" group-title="央视频道",CCTV-14 [204ms]
+#EXTINF:-1 tvg-id="cctv14" tvg-name="CCTV-14" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv14.png" group-title="央视频道",CCTV-14 [117ms]
 http://38.75.136.137:98/gslb/dsdqbv/cctv14hd.m3u8?auth=test20251009
-#EXTINF:-1 tvg-id="cctv14" tvg-name="CCTV-14" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv14.png" group-title="央视频道",CCTV-14 [219ms]
-http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv14hd
-#EXTINF:-1 tvg-id="cctv14" tvg-name="CCTV-14" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv14.png" group-title="央视频道",CCTV-14 [984ms]
+#EXTINF:-1 tvg-id="cctv14" tvg-name="CCTV-14" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv14.png" group-title="央视频道",CCTV-14 [119ms]
 http://38.75.136.137:98/gslb/dsdqpub/cctv14hd.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="cctv15" tvg-name="CCTV-15" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv15.png" group-title="央视频道",CCTV-15 [143ms]
+#EXTINF:-1 tvg-id="cctv14" tvg-name="CCTV-14" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv14.png" group-title="央视频道",CCTV-14 [203ms]
+http://204.12.221.218:8181/3m1080p/cctv14.m3u8
+#EXTINF:-1 tvg-id="cctv14" tvg-name="CCTV-14" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv14.png" group-title="央视频道",CCTV-14 [301ms]
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv14hd
+#EXTINF:-1 tvg-id="cctv15" tvg-name="CCTV-15" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv15.png" group-title="央视频道",CCTV-15 [192ms]
 http://198.204.228.26/live/cctv15hd.m3u8
-#EXTINF:-1 tvg-id="cctv15" tvg-name="CCTV-15" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv15.png" group-title="央视频道",CCTV-15 [205ms]
-http://38.75.136.137:98/gslb/dsdqpub/cctv15hd.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="cctv15" tvg-name="CCTV-15" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv15.png" group-title="央视频道",CCTV-15 [217ms]
+#EXTINF:-1 tvg-id="cctv15" tvg-name="CCTV-15" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv15.png" group-title="央视频道",CCTV-15 [288ms]
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv15hd
-#EXTINF:-1 tvg-id="cctv16" tvg-name="CCTV-16" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv16.png" group-title="央视频道",CCTV-16 [204ms]
+#EXTINF:-1 tvg-id="cctv15" tvg-name="CCTV-15" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv15.png" group-title="央视频道",CCTV-15 [742ms]
+http://38.75.136.137:98/gslb/dsdqpub/cctv15hd.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="cctv16" tvg-name="CCTV-16" tvg-logo="https://live.fanmingming.cn/tv/logo/cctv16.png" group-title="央视频道",CCTV-16 [743ms]
 http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
